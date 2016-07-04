@@ -1,11 +1,4 @@
 
-@font-face {
-    font-family: 'FFFForward';
-    src: url('../images/FFFFORWA.TTF') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
   overflow:hidden;
   margin: 0px;
@@ -20,7 +13,7 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-image: url('../images/Background.png');
+    background-image: url('../../nodecg-speedcontrol/images/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 1280px;
@@ -80,7 +73,7 @@ body {
 }
 
 .runnerLogo {
-    background-image: url('../images/playerlogo.png');
+    background-image: url('../../nodecg-speedcontrol/images/playerlogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
@@ -90,7 +83,6 @@ body {
 }
 
 .runnerInfo {
-    font-family: FFFForward;
     color: #8d7996;
     background: rgba(255,255,255,0.1);
     line-height: 3.3em;
@@ -125,14 +117,12 @@ body {
 #runInformationGameEstimate {
     position: relative;
     top: 10%;
-    font-family: FFFForward;
     font-size: 1em;
     text-align: center;
     color: rgba(255,255,255,0.25);
 }
 
 #runInformationGameName {
-    font-family: FFFForward;
     font-size: .7em;
     text-align: left;
     color: #8d7996;
@@ -141,7 +131,6 @@ body {
 }
 
 #runInformationGameCategory {
-    font-family: FFFForward;
     font-size: .7em;
     color: #8d7996;
     width: 38%;
@@ -150,7 +139,6 @@ body {
 }
 
 #runInformationGameSystem {
-    font-family: FFFForward;
     font-size: .7em;
     color: #8d7996;
     width: 175px;
@@ -159,7 +147,7 @@ body {
 }
 
 #runInformationLogo {
-    background-image: url('../images/runInformationIcon.png');
+    background-image: url('../../nodecg-speedcontrol/images/runInformationIcon.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -184,7 +172,6 @@ body {
 
 #timer {
     position: relative;
-    font-family: FFFForward;
     font-size: 2.3em;
     text-align: center;
     top: 5px;
@@ -195,7 +182,7 @@ body {
     top: 0px;
     width: 316px;
     height: 88px;
-    background-image: url('../images/SpeedcontrolLogo.png');
+    background-image: url('../../nodecg-speedcontrol/images/SpeedcontrolLogo.png');
     background-repeat: no-repeat;
     background-size: 85%;
 }
@@ -207,7 +194,6 @@ body {
     border-radius: 5px;
     display: flex;
     color: white;
-    font-family: FFFForward;
     font-size: 1em;
     height: 6%;
     background-color: rgba(0,0,0,0.3);
@@ -226,7 +212,7 @@ body {
     width: 32px;
     height: 76%;
     padding: 5px;
-    background-image: url('/graphics/nodecg-speedcontrol/images/finishFlag.gif');
+    background-image: url('../../nodecg-speedcontrol/images/finishFlag.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 76%;
