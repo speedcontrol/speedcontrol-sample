@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Arial";
+  font-family: arial-bold;
   overflow:hidden;
   margin: 0px;
   padding: 0px;
@@ -86,7 +86,7 @@ body {
 .runnerInfo {
     color: #8d7996;
     background: rgba(255,255,255,0.1);
-    line-height: 2em;
+    line-height: 3.3em;
     height: 100%;
     width: 100%;
     vertical-align: middle;
