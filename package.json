@@ -1,0 +1,36 @@
+{
+  "name": "speedcontrol-sample",
+  "version": "0.0.0",
+  "description": "Sample graphics bundle for speedcontrol",
+  "homepage": "https://github.com/speedcontrol/speedcontrol-sample",
+  "author": {
+    "name": "btrim",
+    "email": "btrim.twitch@gmail.com",
+    "url": ""
+  },
+  "bundleDependencies": {
+  	"nodecg-speedcontrol": "v0.7a"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.7.0",
+    "graphics": [
+      {
+        "file": "single_4_3.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "repository": "speedcontrol/speedcontrol-sample",
+  "license": "Apache-2.0"
+}
